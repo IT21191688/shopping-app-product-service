@@ -8,6 +8,6 @@ app.use("/", (req, res, next) => {
   return res.status(200).json({ msg: "Hello From Product" });
 });
 
-app.listen(8001, () => {
-  console.log("Product Microservice Listening to Port 8001");
+app.listen(8002, () => {
+  console.log("Product Microservice Listening to Port 8002");
 });
